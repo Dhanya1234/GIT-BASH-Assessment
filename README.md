@@ -12,5 +12,10 @@ Here we Construct 10 files which includes .img,.java,.html, and others .. After 
 - in that folder we need to create files using touch command
 - after creating files we need to add to staging area using add command
 - commit them using commit -m command
-- for push we need to creat 1 repository on our github where we can push them on repository
+- for push we need to creat 1 repository on our github where we can push them on that repository
+  
+# Steps to push
+- copy the remote repository's URL
+- Add URL to the remote repository where your local repository will be pushed, by command git remote add origin
+- push the code in your local repository to github, by command git push -u origin master
   
